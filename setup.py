@@ -12,8 +12,9 @@ f.close()
 
 setup(
     name='bw2waterbalancer',
-    version="0.1.0",
+    version="0.1.1",
     packages=find_packages(),
+    package_data={'bw2waterbalancer': ['data/*.json']},
     author="Pascal Lesage",
     author_email="pascal.lesage@polymtl.ca",
     license="MIT; LICENSE.txt",
